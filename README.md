@@ -63,7 +63,7 @@ The `complaint_agent` is equipped with specific, reliable tools to interact with
 ⏱️ **Function:** Analyzes the description of a report to classify its urgency (High, Medium, or Low) based on predefined keywords.
 
 ### 4. **Knowledge Base Search** (`search_knowledge_base`)  
-📚 **Function:** Allows the Agent to search for answers, FAQs, or procedural guidance for general inquiries using real-time results.
+📚 **Function:** Allows the Agent to search for answers, FAQs, or procedural guidance for general inquiries.
 
 ### 5. **Status Monitor & Updater**  (`monitor_and_update_status`)
 🔄 **Function:** Enables the Agent to both retrieve the current status of an existing report (using its unique Report ID) and update that status upon authorization.
