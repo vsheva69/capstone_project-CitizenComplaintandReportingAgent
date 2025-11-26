@@ -2,7 +2,6 @@
 ✨ *Powered by Google Agent Development Kit (ADK)*
 
 ---
-
 ## 📝 **PROJECT DESCRIPTION**
 This project contains the core logic for the Complaint Agent (`complaint_agent`), a system designed to streamline and automate citizen complaint handling. The agent is built using the Google Agent Development Kit (ADK) and focuses on immediate classification, routing, and monitoring of public feedback to ensure swift governmental response.
 
@@ -69,6 +68,9 @@ The `complaint_agent` is equipped with specific, reliable tools to interact with
 ### 5. **Status Monitor & Updater**  (`monitor_and_update_status`)
 🔄 **Function:** Enables the Agent to both retrieve the current status of an existing report (using its unique Report ID) and update that status upon authorization.
 
+### 6. **Location Verifier** (`verify_incident_location`)
+📍 **Function**: Verifies and determines the precise geographical coordinates of the reported incident to provide accurate location data to the response team.
+
 ---
 
 ## 🧾 **CONCLUSION**
@@ -80,6 +82,9 @@ The Citizen Complaint and Reporting Agent demonstrates the immediate value of AI
 Implementing the Complaint Agent is projected to reduce the average time from report submission to responsible agency notification from **4 hours** (manual) to **under 5 minutes**.
 
 ---
+
+## 🗺️ **If I Had More Time**  
+I would integrate the system with a third-party mapping tool (via an additional specialized tool) to automatically verify and resolve the exact geographic coordinates of the reported incident.
 
 ## 🗺️ **If I Had More Time**  
 I would integrate the system with a third-party mapping tool (via an additional specialized tool) to automatically verify and resolve the exact geographic coordinates of the reported incident.
